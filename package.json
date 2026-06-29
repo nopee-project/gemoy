@@ -22,7 +22,11 @@
   },
   "homepage": "https://github.com/blueninja1982/gemoy#readme",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^26.0.1",
-    "typescript": "^6.0.3"
+    "eslint": "^10.6.0",
+    "globals": "^17.7.0",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.62.0"
   }
 }
