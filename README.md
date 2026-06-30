@@ -32,3 +32,5 @@ Menjadi "Second Brain" perusahaan.
 ## Status
 
 🚧 Under Development
+
+Testing Husky
