@@ -1,11 +1,14 @@
+import "dotenv/config";
+
 import { buildApp } from "./app.js";
+import { config } from "./config.js";
 
 const app = buildApp();
 
 const start = async () => {
   try {
     await app.listen({
-      port: 3000,
+      port: config.port,
       host: "0.0.0.0",
     });
 

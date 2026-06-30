@@ -1,11 +1,12 @@
+import { config } from "../config.js";
 import type { FastifyInstance } from "fastify";
 
 export async function rootRoute(app: FastifyInstance) {
   app.get("/", async () => {
     return {
-      name: "GemOS Gateway",
-      version: "1.0.0",
-      environment: "development",
+      name: config.serviceName,
+      version: config.serviceVersion,
+      environment: config.nodeEnv,
       status: "running",
     };
   });
